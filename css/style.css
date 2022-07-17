@@ -656,19 +656,23 @@ footer p {
         width: 100vw;
         padding: 0 5px 0;
         margin: 0;
+        display: none;
     }
-
     .nav-logo a {
         position: relative;
         top: -105px;
         right: 20px;
-        display: none;
+        z-index: 10;
+        /* display: none; */
     }
 
     .nav-logo a,
     .nav-link {
         margin-right: 10px;
         margin-left: 10px;
+    }
+    .nav-link a{
+        display: none;
     }
 
     .nav-logo img {
@@ -680,7 +684,7 @@ footer p {
         animation: typing 3s steps(30), blink .5s step-end infinite alternate;
         border-right: 3px solid;
         font-family: monospace;
-        font-size: 2.4em;
+        font-size: 2.3em;
         color: #fff;
         position: relative;
         top: -370px;
@@ -749,6 +753,12 @@ footer p {
         position: relative;
         left: 135px;
     width: 300px;
+    }
+    .postsb{
+        margin: 5px 10px 10px 10px;
+    }
+    .postsb h3{
+        margin: 0;
     }
 
     .posts-blog {

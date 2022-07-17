@@ -270,7 +270,8 @@ body {
 }
 
 .news-info p {
-    margin: 30px 0px;
+    padding: 0 30px 0 0;
+    margin: 30px 20px 25px -10px;
 }
 
 /* Botón de blog */
@@ -598,11 +599,11 @@ footer p {
     }
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     /*Pagina de Inicio */
 
     /*Página de BLOGS */
-    .news {
+    /* .news {
         padding: 20px;
     }
 
@@ -620,11 +621,11 @@ footer p {
     }
     .posts-blogs img{
         width: 200px;
-    }
+    } */
 
 
     /*Página de Blog*/
-    .main-blog {
+    /* .main-blog {
         padding: 20px;
     }
 
@@ -643,28 +644,12 @@ footer p {
     .contact {
         display: grid;
         margin: 0px;
-    }
+    } */
 
     /*Página de Perfil*/
-    .profile {
-        padding: 20px;
-    }
 
-    .profile-img img {
-        width: 90%;
-    }
 
-    .projects-container {
-        padding: 20px;
-    }
-
-    .project {
-        max-width: 45%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .posts-blogs img{
         width: 150px;
         height: 90px;
@@ -675,8 +660,8 @@ footer p {
     .posts-blogs h4{
         font-size: 13px;
     }
-}
-
+} */
+/* 
 @media screen and (max-width: 700px) {
     .welcome{
         font-size: 10px;
@@ -696,9 +681,8 @@ footer p {
     height: 30px;
     left: -300px;
     
-    }
+    } */
 
-}
 @media screen and (max-width: 540px) {
 
     /*Pagina de Inicio */
@@ -950,7 +934,7 @@ footer p {
         text-align: center;
     }
 }
-@media screen and (max-width: 380px) {
+/* @media screen and (max-width: 380px) {
     .welcome {
         width: 300px;
         font-size: 20px;
@@ -974,4 +958,4 @@ footer p {
         left: -210px;
     }
 
-}
+} */

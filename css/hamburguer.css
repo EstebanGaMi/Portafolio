@@ -48,7 +48,7 @@
 
 /* Estilos para el contenedor del Menú */
 .cont-menu{
-    background-color: rgba(58, 2, 137, 0.926);
+    background-color: rgba(255, 1, 94, 0.74);
     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
     width: 400px;
     height: 100vh;
@@ -62,7 +62,7 @@
 
 /* Estilos por agregar en JavaScript */
 .active{
-    transform: translate(600px);
+    transform: translate(-1600px);
 }    
 
 /* Estilos para el listado del Menú */
@@ -73,12 +73,20 @@
 
 .cont-menu ul li{
     color: white;
-    display: block;
+    display: inline-block;
     font-size: 25px;
     text-decoration: none;
     padding: 10px 50px;
     cursor: pointer;
+    width: 100vw;
+    /* border:  1px solid black;
+    border-radius: 5px; */
 }    
+.cont-menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
 
 .cont-menu ul li:hover{
     background-color: rgba(0, 0, 0, 0.72);
@@ -87,7 +95,7 @@
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
 
 .bars__menu{
     display: block;

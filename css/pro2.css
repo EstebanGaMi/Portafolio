@@ -1,151 +1,177 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body::before {
-    font-family: 'Roboto Condensed', sans-   serif;
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background: var(--color-darkviolet);
-    background-image: linear-gradient( 115deg, rgba(116, 5, 242, 0.4), rgba(136, 136, 206, 0.5) ), url(https://i0.wp.com/www.hanamidango.com/wp-content/uploads/2021/06/SOLO-LEVELING-13-Hanami-Dango-e1623430483483.png?fit=1593%2C1027&ssl=1);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  :root {
-      --color-darkviolet: #7405f2;
-  }
-  header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  main{
-      display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #title{
-    font-family: 'Tapestry', cursive;
-    font-size: 40px;
-  }
-  #description{
-    color: #fff;
-    margin: 10px;
-  }
-  form{
-    margin: 20px;
-      width:400px;
-      background-color: rgba(27, 27, 50, 0.8);
-      padding: 2.5rem 0.625rem;
-      border-radius: 0.25rem; 
-      box-shadow: rgba(0, 0, 0, 0.9);
-  }
-  #name-label{
-    display: flex;
-    color: #fff;
-    margin: 14px 0 0 20px;
-  }
-  #email-label{
-    display: flex;
-    color: #fff;
-    margin: 14px 0 0 20px;
-  }
-  #number-label{
-    display: flex;
-    color: #fff;
-    margin: 14px 0 0 20px;
-  }
-  #nammabel{
-    display: flex;
-    color: #fff;
-    margin: auto 0 auto 20px;
-  }
-  .form-control{
-    padding: 6px;
-    border-radius: 10px;
-    width: 350px;
-    height: 30px;
-    margin: 15px -5px 0 15px;
-  }
-  .form-group p{
-    margin: 20px 0 5px 20px;
-    color: #fff;
-  }
-  .input {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 9px 0 0 20px;
-    color: #fff;
-  }
-  .input-radio{
-    margin:10px;
-  }
-  .input-radio:hover{
-    cursor: pointer;
-  }
-  .check:hover{
-    cursor: pointer;
-  }
-  .input-checkbox{
-    margin: 9px 0 0 20px;
-    display: flex;
-    align-items: center;
-    width: 90px;
-    color: #fff;
-  }
-    .input-checkbox input{
-      margin:5px;
-    }
-  .input-checkbox:hover{
-    cursor: pointer;
-  }
-  .input-textarea{
-    width: 350px;
-    height: 90px;
-    margin: 5px 0 10px 15px;
-  }
-  .btn1{
-    display: flex;
-    justify-content: center;
-  }
-  .btn{
-    border-radius: 10px;
-    color: #fff;
-    width: 70px;
-    height: 30px;
-    border: none;
-    background-color: rgba(0, 0, 0,       0.8);
-  }
-  .btn:hover{
-    color: #fff;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0,       0.2);
-  }
-  .form-control{
-    color: #fff;
-    background-color: rgba(0, 0, 0,       0.5);
-    border: none;
-  }
-  .form-control:hover{
-    color: #fff;
-    background-color: rgba(0, 0, 0,       0.2);
-  }
-   #dropdown:hover{
-      cursor: pointer;
-    }
-  option{
-    color: #fff;
-    background-color: rgba(0, 0, 0,       0.8);
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  font-family: 'Roboto Condensed', sans- serif;
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkviolet);
+  background-image: linear-gradient(115deg, rgba(116, 5, 242, 0.4), rgba(136, 136, 206, 0.5)), url(https://i0.wp.com/www.hanamidango.com/wp-content/uploads/2021/06/SOLO-LEVELING-13-Hanami-Dango-e1623430483483.png?fit=1593%2C1027&ssl=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+:root {
+  --color-darkviolet: #7405f2;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: 'Tapestry', cursive;
+  font-size: 40px;
+}
+
+#description {
+  color: #fff;
+  margin: 10px;
+}
+
+form {
+  margin: 20px;
+  width: 400px;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.9);
+}
+
+#name-label {
+  display: flex;
+  color: #fff;
+  margin: 14px 0 0 20px;
+}
+
+#email-label {
+  display: flex;
+  color: #fff;
+  margin: 14px 0 0 20px;
+}
+
+#number-label {
+  display: flex;
+  color: #fff;
+  margin: 14px 0 0 20px;
+}
+
+#nammabel {
+  display: flex;
+  color: #fff;
+  margin: auto 0 auto 20px;
+}
+
+.form-control {
+  padding: 6px;
+  border-radius: 10px;
+  width: 350px;
+  height: 30px;
+  margin: 15px -5px 0 15px;
+}
+
+.form-group p {
+  margin: 20px 0 5px 20px;
+  color: #fff;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 9px 0 0 20px;
+  color: #fff;
+}
+
+.input-radio {
+  margin: 10px;
+}
+
+.input-radio:hover {
+  cursor: pointer;
+}
+
+.check:hover {
+  cursor: pointer;
+}
+
+.input-checkbox {
+  margin: 9px 0 0 20px;
+  display: flex;
+  align-items: center;
+  width: 90px;
+  color: #fff;
+}
+
+.input-checkbox input {
+  margin: 5px;
+}
+
+.input-checkbox:hover {
+  cursor: pointer;
+}
+
+.input-textarea {
+  width: 350px;
+  height: 90px;
+  margin: 5px 0 10px 15px;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 10px;
+  color: #fff;
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.form-control:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#dropdown:hover {
+  cursor: pointer;
+}
+
+option {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}

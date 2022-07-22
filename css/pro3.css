@@ -1,26 +1,30 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Cuerpo */
-body{
+body {
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
-#navbar{
+
+#navbar {
     grid-column: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.navbar{
+
+.navbar {
     position: sticky;
     top: 0;
     height: 100vh;
     background-color: antiquewhite;
 }
-.navbar li{
+
+.navbar li {
     margin: 20px;
     list-style: none;
     background-color: rgba(171, 184, 174, 0.6);
@@ -30,19 +34,24 @@ body{
     display: flex;
     align-items: center;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: #000;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: #fff;
 }
-#main-doc{
+
+#main-doc {
     grid-column: 2;
 }
-header{
+
+header {
     margin: 10px;
 }
-main{
+
+main {
     margin: 10px 0 0 30px;
 }
